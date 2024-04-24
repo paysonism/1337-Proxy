@@ -1,0 +1,43 @@
+@import url("https://unpkg.com/@catppuccin/palette/css/catppuccin.css");
+:root {
+  --page: #11111b;
+  --background: #1e1e2e;
+  --background-secondary: #1e1e2e;
+  --background-dark: #11111b /*crust*/;
+
+  --title: #8839EF /*blue*/;
+  --block: #1E1E2E /*surface0*/;
+  --block-buttons: #28283c /*surface1*/;
+  --input: #11111B /*surface0*/;
+  --column: var(--ctp-latte-crust) /*crust*/;
+  --text-primary: var(--ctp-latte-text) /*text*/;
+  --text-secondary: var(--ctp-latte-subtext1) /*subtext1*/;
+  --text-placeholder: var(--ctp-latte-subtext0) /*subtext0*/;
+  --main: var(--ctp-latte-base) /* base */;
+  --accent-color: #1E1E2E;
+}
+
+input,
+select,
+.column,
+.key-form,
+button,
+.key-button {
+  background-color: #27273c;
+}
+.searchbar {
+  background-color: #1E1E2E /*surface0*/;
+  color: var(--ctp-latte-subtext1) /*subtext1*/;
+}
+
+.settings-card {
+  background-color: #1E1E2E;
+}
+
+input:checked + .slider-round {
+  background-color: #000;
+}
+
+.fixed-nav-bar-right .navbar-link {
+  color: var(--ctp-latte-mauve) /*mauve*/;
+}
