@@ -1,0 +1,8 @@
+{
+  "name": "1337",
+  "description": "?",
+  "repository": "https://github.com/paysonism/1337-Proxy",
+  "logo": "https://i.ibb.co/1vC1bc0/1337-Logo-1.png",
+  "keywords": ["school", "math", "hack", "unblock"],
+  "image": "heroku/nodejs"
+}
